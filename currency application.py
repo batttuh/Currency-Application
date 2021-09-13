@@ -1,7 +1,7 @@
 import requests
 import sys
 
-acces_key = "2c557664f831d85d995fea42b6393731"
+acces_key = input("Give the right acces key in the fixer.io")
 url = "http://data.fixer.io/api/latest?access_key="+acces_key
 firstCurrency=input("Which currency do you transform? ")
 howMuch=input("How much money do you have: ")
